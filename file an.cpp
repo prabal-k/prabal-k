@@ -11,8 +11,8 @@ int main()
 	struct emp a[100];
 	int i=0,n;
 	FILE *p;
-	p=fopen("C:\\CPROGRAM\\RECORD.txt","w+");
-	if(p=NULL)
+	p=fopen("C:\\CPROGRAM\\swornim.txt","w+");
+	if(p==NULL)
 	{
 		printf("\nfile not found");
 		exit(0);
